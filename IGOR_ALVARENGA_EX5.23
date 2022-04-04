@@ -1,0 +1,275 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "7fe78715",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#código da figura 5.5, armazene valores e mostrar o resultado"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "39986a2e",
+   "metadata": {},
+   "source": [
+    "# Exercício 5.23"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "2abd707f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 1 #a recebe 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "fb0a5971",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b = 5 # b recebe  5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "7b343266",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c = 2 # C recebe 2 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "d05a53a2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d = 1 #d recebe 1 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "99a3660c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"a==b ?\", a==b) #a é igual a b ?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "ae2bf620",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " b > a ? True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\" b > a ?\", b > a) # b é maior que a?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "79111a78",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a < b ? True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"a < b ?\", a < b) # a é menor que b?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "576cf83a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " a == d ? True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\" a == d ?\", a==d) #a é igual a d ?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "7f547867",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " b >= a ? True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\" b >= a ?\", b >=a) # b é maior ou igual a a?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "a99bfbc4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "c <= b ? True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"c <= b ?\", c <=b) # c é menor ou igual a b? "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "bb2982d9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "d != a ? False\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"d != a ?\", d != a) # d é diferente de a?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "b66b46c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "d != b True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"d != b\", d != b) # d é diferente de b?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "acafb512",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2554976d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a7d6dc27",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "81e22c92",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8d57ea41",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "be2acbff",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
