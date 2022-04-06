@@ -1,203 +1,205 @@
 {
  "cells": [
   {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "b210349c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#código da figura 5.5, armazene valores e mostrar o resultado"
+   ]
+  },
+  {
    "cell_type": "markdown",
-   "id": "3f932003",
+   "id": "6ebebc4e",
    "metadata": {},
    "source": [
-    "# EXERCÍCIO 5.1"
+    "# Exercício 5.23"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": null,
-   "id": "2aa55832",
+   "execution_count": 1,
+   "id": "f054d57e",
    "metadata": {},
    "outputs": [],
    "source": [
-    "#10+20X30 EXPERSSÃO 1"
+    "a = 1 #a recebe 1"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "0092e8a1",
+   "id": "2f7df5ee",
    "metadata": {},
    "outputs": [],
    "source": [
-    "a = 10 # VALOR DE A"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 3,
-   "id": "83f694ed",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "b = 20 # VALOR DE B"
+    "b = 5 # b recebe  5"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "e0d354e2",
+   "id": "565ade8d",
    "metadata": {},
    "outputs": [],
    "source": [
-    "c =30 # VALOR DE C"
+    "c = 2 # C recebe 2 "
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
-   "id": "9fe60d07",
+   "execution_count": 5,
+   "id": "26e59b92",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d = 1 #d recebe 1 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "1d0d7126",
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "RESULTADO: 610\n"
+      "\n"
      ]
     }
    ],
    "source": [
-    "print (\"RESULTADO:\", a+b*c)"
+    "print (\"a==b ?\", a==b) #a é igual a b ?"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
-   "id": "bc8456d6",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# 4^2/30 EXPRESSÃO 2"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 32,
-   "id": "fe9c9ceb",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "A = 4 # VALOR DE A"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 33,
-   "id": "171eb2ff",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "B = 30 # VALOR DE B"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 35,
-   "id": "5a8cf893",
-   "metadata": {
-    "scrolled": true
-   },
-   "outputs": [],
-   "source": [
-    "C = 4 # VALOR DE C"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 51,
-   "id": "4fb2081a",
+   "execution_count": 23,
+   "id": "68a6e668",
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "RESULTADO:  30.0\n"
+      " b > a ? True\n"
      ]
     }
    ],
    "source": [
-    "print (\"RESULTADO: \", A*B/C)"
+    "print (\" b > a ?\", b > a) # b é maior que a?"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 38,
-   "id": "f49253cc",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# (94+2) X 6 -1 EXPRESSÃO 3 "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 42,
-   "id": "2375fc2e",
+   "execution_count": 21,
+   "id": "8d0af479",
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "RESULTADO :  575\n"
+      "a < b ? True\n"
      ]
     }
    ],
    "source": [
-    "print (\"RESULTADO : \", (94+2) * 6 -1)"
+    "print (\"a < b ?\", a < b) # a é menor que b?"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 44,
-   "id": "6759faaf",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# ((10+8)*(10-4)) -1 # EXPRESSÃO 4 "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 47,
-   "id": "28c292dc",
+   "execution_count": 20,
+   "id": "35943bed",
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "RESULTADO:  108\n"
+      " a == d ? True\n"
      ]
     }
    ],
    "source": [
-    "print (\"RESULTADO: \", ((10+8)*(10-4)))"
+    "print (\" a == d ?\", a==d) #a é igual a d ?"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 49,
-   "id": "740df29b",
+   "execution_count": 19,
+   "id": "8a4a7489",
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "RESULTADO:  2980947985820.5586\n"
+      " b >= a ? True\n"
      ]
     }
    ],
    "source": [
-    "print(\"RESULTADO: \",((1500+(100-9/10))*9)**3)"
+    "print (\" b >= a ?\", b >=a) # b é maior ou igual a a?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "0068035f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "c <= b ? True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"c <= b ?\", c <=b) # c é menor ou igual a b? "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "834b247d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "d != a ? False\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"d != a ?\", d != a) # d é diferente de a?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "7680738c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "d != b True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"d != b\", d != b) # d é diferente de b?"
    ]
   }
  ],
